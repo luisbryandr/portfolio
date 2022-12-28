@@ -66,7 +66,22 @@ h1 {
 header {
 	display: flex;
 	justify-content: space-between;
+	font-size: large;
 }
 nav {
 	display: flex;
 }
+
+nav a {
+	text-align: center;
+    color: black;
+    border-radius: 2px;
+    text-decoration: none;
+	
+}
+
+.homenav {
+	background-color: black;
+	color: white;
+}
+
