@@ -67,6 +67,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	font-size: large;
+	padding: 1%;
 }
 nav {
 	display: flex;
@@ -77,12 +78,14 @@ nav a {
     color: black;
     border-radius: 2px;
     text-decoration: none;
+	border: 1px solid black; 
 	
 }
 
 .homenav {
 	background-color: black;
 	color: white;
+	padding-bottom: 2%;
 }
  /*  top Section styling*/
 
@@ -98,6 +101,7 @@ nav a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 1%;
 }
 
 
@@ -105,10 +109,12 @@ nav a {
 .top-row {
 	display: flex;
 	justify-content:space-around;
+	padding: 1%;
 }
 .bottom-row {
 	display: flex;;
 	justify-content: space-around;
+	padding: 1%;
 }
 
 /* Footer Styles */
@@ -121,7 +127,12 @@ footer {
 	height: 5vh;
 }
 
-.contact-me {
-	width: 10%;
+.contact-me, .projects {
+	text-align: center;
+    color: black;
+    border-radius: 2px;
+    text-decoration: none;
+	border: 1px solid black; 
 	padding: 1% 0;
+	width: 20%;
 }
