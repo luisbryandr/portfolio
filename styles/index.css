@@ -84,4 +84,22 @@ nav a {
 	background-color: black;
 	color: white;
 }
+ /*  top Section styling*/
 
+.bg-image {
+	background-image: url(https://picsum.photos/200);
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: top center;
+    width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.top {
+	display: flex;
+}
